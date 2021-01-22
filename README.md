@@ -1,2 +1,2 @@
 # vue-ts-zhihu
-vue3.0 +  typescript 仿知乎专栏
+vue3.0 +  typescrip 仿知乎学习
