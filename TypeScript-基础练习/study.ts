@@ -262,5 +262,5 @@ type IDemo = Partial<Demo>
 
 // 过滤 类型 Omit
 
-type ODemo = Omit<Demo,'age'>
+type ODemo = Omit<Demo, 'age'>
 
