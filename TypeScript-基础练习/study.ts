@@ -249,3 +249,18 @@ let person: IPerson = {
 // 声明文件 放在.d.ts文件
 declare var jQuery: (agrs: string) => any
 jQuery('#foo')
+
+// 内置类型 
+// 变化成可选  Partial
+
+interface Demo{
+    name: string,
+    age: number
+}
+
+type IDemo = Partial<Demo>
+
+// 过滤 类型 Omit
+
+type ODemo = Omit<Demo,'age'>
+
